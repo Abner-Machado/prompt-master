@@ -1,0 +1,7 @@
+{
+  "name": "prompt-master",
+  "version": "0.1.0",
+  "description": "Reescreve o prompt antes de enviar, com botao Prompt Master na linha de dica abaixo do prompt",
+  "types": "./types/index.d.ts",
+  "license": "MIT"
+}
