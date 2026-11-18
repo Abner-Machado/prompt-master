@@ -54,6 +54,13 @@ Se o haiku não responder, o mod tenta uma frota local de modelos gratuitos por 
 chamado `combo.ps1`. Esse caminho só é tentado onde o script existe, então em máquina de
 outra pessoa ele nem é alcançado: sobra o haiku, que é o caminho normal.
 
+## Sessão web e na nuvem
+
+Nessas superfícies ninguém desenha a linha de dica, e `/plugin` também não roda. Para elas o
+repo traz a mesma instrução de reescrita como skill, em `skills/prompt-master/`. Copie essa
+pasta para `.claude/skills/prompt-master/` do repositório que a sessão abrir, comite, e
+`/prompt-master <pedido>` passa a existir lá.
+
 ## Onde aparece
 
 A linha de dica é desenhada no terminal, no app desktop e no celular. Na extensão do VS Code
